@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+  background-color: #f0f4f5;   
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+.button-cyan{
+    background-color: #00bcd4;   
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 1.3s ease;
+}
+
+.button-cyan:hover {
+    background-color: #0c92a3;   /* Darker cyan on hover */
+}
